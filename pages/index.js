@@ -24,7 +24,7 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className="h2">
+          className="h2 text-4xl">
             Tworze kod, który wyróźnia się <br/> Twoja witryna{' '}
             <span className="text-accent">nasza pasja!</span>
             {/* Transforming Ideas <br/> Into{' '}
