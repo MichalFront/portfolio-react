@@ -9,16 +9,16 @@ import {
 
 
 // data
-const serviceData = [
+export const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'It gives your company a new identity through branding elements such as logo, colors, packaging, brand voice and design.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'lllLorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxDesktop />,
@@ -65,7 +65,10 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Lorem</motion.p>
+            className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+            >
+            {/* Lorem */}
+            </motion.p>
           </div>
           {/* slider */}
           <motion.div

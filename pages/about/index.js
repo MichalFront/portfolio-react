@@ -8,6 +8,9 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaGit,
+  FaGithub,
+  FaNpm
 } from "react-icons/fa";
 
 import {
@@ -15,6 +18,14 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiMysql,
+  SiMacos,
+  SiWindows,
+  SiFirebase,
+  SiVisualstudiocode,
+  SiVisualstudio,
+  SiUnity,
+  SiNpm
 } from "react-icons/si";
 
 
@@ -33,24 +44,39 @@ export const aboutData = [
           <SiNextdotjs />,
           <SiFramer />,
           <FaWordpress />,
+          <SiMysql/>,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      },
-    ],
-  },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        icons: [
+        <FaFigma />,
+        // <SiAdobexd />,
+        // <SiAdobephotoshop />
+      ],
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Tools',
+        icons: [
+          <FaGit/>,
+          <FaGithub/>,
+          <FaNpm/>,
+          <SiFirebase/>,
+          <SiVisualstudiocode/>,
+          <SiUnity/>,
+          <SiNpm/>,
+        // <SiAdobexd />,
+        // <SiAdobephotoshop />
+      ],
+      },
+      {
+        title: 'Environment',
+        icons: [
+          <SiMacos/>,
+          <SiWindows/>,
+        // <SiAdobexd />,
+        // <SiAdobephotoshop />
+      ],
       },
     ],
   },
@@ -58,36 +84,49 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Programming Trainer - Giganci Programowania',
+        stage: '2020 - currently',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Engineer - Lionbridge Poland Sp. z o. o.',
+        stage: '2022 - 2023',
       },
     ],
   },
   {
-    title: 'credentials',
+    title: 'courses',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'JavaScript - The Only Course You Need!',
+        stage: '2023',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'JavaScript - The Complete Guide 2023 (Beginner + Advanced)',
+        stage: '2023',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Website Creation course in HTML and CSS from Basics to Expert',
+        stage: '2023',
       },
     ],
   },
+  // {
+  //   title: 'credentials',
+  //   info: [
+  //     {
+  //       title: 'Web Development - ABC University, LA, CA',
+  //       stage: '2011',
+  //     },
+  //     {
+  //       title: 'Computer Science Diploma - AV Technical Institute',
+  //       stage: '2009',
+  //     },
+  //     {
+  //       title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
+  //       stage: '2006',
+  //     },
+  //   ],
+  // },
 ];
 
 // components
@@ -202,7 +241,7 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                    return <div className="text-2xl text-white">{icon}</div>;
+                    return (<div key={itemIndex} className="text-2xl text-white">{icon}</div>);
                   })}
                   </div>
                 </div>

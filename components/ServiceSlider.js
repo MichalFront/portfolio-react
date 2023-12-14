@@ -24,7 +24,7 @@ export const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'It gives your company a new identity through branding elements such as logo, colors, packaging, brand voice and design.',
   },
   {
     icon: <RxPencil2 />,
