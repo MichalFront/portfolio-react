@@ -24,27 +24,27 @@ export const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'It gives your company a new identity through branding elements such as logo, colors, packaging, brand voice and design.',
+    description: 'Crafting a unique business identity through a memorable logo and messaging.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Combining aesthetics and functionality for an engaging digital experience.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Bringing a website to life through coding for a smooth user experience.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating compelling content to drive engagement and conversions.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Enhancing website visibility on search engines for increased organic traffic/ranking.',
   },
 ];
 
