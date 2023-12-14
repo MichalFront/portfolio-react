@@ -66,7 +66,10 @@ const Work = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Lorem</motion.p>
+            className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+            >
+              {/* Lorem */}
+            </motion.p>
           </div>
           {/* slider */}
           <motion.div

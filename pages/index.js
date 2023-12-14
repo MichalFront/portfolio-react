@@ -25,8 +25,10 @@ const Home = () => {
           animate='show'
           exit='hidden'
           className="h2 text-4xl">
-            Tworze kod, który wyróźnia się <br/> Twoja witryna{' '}
-            <span className="text-accent">nasza pasja!</span>
+            I create code that stands out <br/> Your Website  {' '}
+            <span className="text-accent"><br/>My passion</span>
+            {/* Tworze kod, który wyróźnia się <br/> Twoja witryna{' '}
+            <span className="text-accent">nasza pasja!</span> */}
             {/* Transforming Ideas <br/> Into{' '}
             <span className="text-accent">Digital Reality</span> */}
           </motion.h1>

@@ -4,41 +4,47 @@ const workSlides = {
     {
       images: [
         {
+          href: 'https://reactgym-68085.web.app/',
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/img_gym2.png',
         },
         {
+          href: 'https://michalfront.github.io/Gas2023',
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/img_gas.png',
         },
         {
+          href: 'https://michalfront.github.io/retro-snake/',
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/img_snake1.png',
         },
         {
+          href: 'https://michalfront.github.io/CV/',
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/img_portfolioold.png',
         },
       ],
     },
     {
       images: [
         {
+          href: 'https://michalfront.github.io/TicTacToe/',
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/img_tictactoe.png',
         },
         {
+          href: 'https://michalfront.github.io/BMI_Calculator/',
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/img_bmi.png',
         },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
-        },
+        // {
+        //   title: 'title',
+        //   path: '/thumb2.jpg',
+        // },
+        // {
+        //   title: 'title',
+        //   path: '/thumb3.jpg',
+        // },
       ],
     },
   ],
@@ -61,6 +67,10 @@ import {BsArrowRight} from 'react-icons/bs'
 import Image from 'next/image';
 
 
+const openWebpage = (href) => {
+  window.open(href, '_blank'); // This opens the link in a new tab/window
+};
+
 const WorkSlider = () => {
   return (
     <Swiper
@@ -79,6 +89,7 @@ const WorkSlider = () => {
               {slide.images.map((image, index) => {
                 return (
                   <div
+                  onClick={() => openWebpage(image.href)}
                   key={index}
                   className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
                     <div className='flex items-center justify-center relative overflow-hidden group'>

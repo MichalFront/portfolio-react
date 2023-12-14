@@ -130,7 +130,7 @@ const About = () => {
       initial= 'hidden'
       animate = 'show'
       exit = 'hidden'
-      className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">3 years ago, I began freelancing as a developer. Since then, I've done remote work for agecies, consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
+      className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">1 year ago, I began freelancing as a developer. Since then, I've done remote work for agecies, consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
           {/*  counters */}
           <motion.div
             variants={fadeIn('right', 0.6)}
@@ -142,21 +142,21 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:ring-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={5}/>+
+                  <CountUp start={0} end={1} duration={5}/>+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Years of experience</div>
               </div>
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:ring-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={14} duration={5}/>+
+                  <CountUp start={0} end={3} duration={5}/>+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Satisfied clients</div>
               </div>
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:ring-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={50} duration={5}/>+
+                  <CountUp start={0} end={9} duration={5}/>+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Finished projects</div>
               </div>
