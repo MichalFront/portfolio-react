@@ -50,7 +50,7 @@ export const aboutData = [
       {
         title: 'UI/UX Design',
         icons: [
-        <FaFigma />,
+        <FaFigma key={9} />,
         // <SiAdobexd />,
         // <SiAdobephotoshop />
       ],
@@ -58,13 +58,13 @@ export const aboutData = [
       {
         title: 'Tools',
         icons: [
-          <FaGit/>,
-          <FaGithub/>,
-          <FaNpm/>,
-          <SiFirebase/>,
-          <SiVisualstudiocode/>,
-          <SiUnity/>,
-          <SiNpm/>,
+          <FaGit key={10}/>,
+          <FaGithub key={11}/>,
+          <FaNpm key={12}/>,
+          <SiFirebase key={13}/>,
+          <SiVisualstudiocode key={14}/>,
+          <SiUnity key={15}/>,
+          <SiNpm key={16}/>,
         // <SiAdobexd />,
         // <SiAdobephotoshop />
       ],
@@ -72,8 +72,8 @@ export const aboutData = [
       {
         title: 'Environment',
         icons: [
-          <SiMacos/>,
-          <SiWindows/>,
+          <SiMacos key={17}/>,
+          <SiWindows key={18}/>,
         // <SiAdobexd />,
         // <SiAdobephotoshop />
       ],
@@ -169,7 +169,7 @@ const About = () => {
       initial= 'hidden'
       animate = 'show'
       exit = 'hidden'
-      className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">1 year ago, I began freelancing as a developer. Since then, I've done remote work for agecies, consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
+      className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">1 year ago, I began freelancing as a developer. Since then, I&apos;ve done remote work for agecies, consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
           {/*  counters */}
           <motion.div
             variants={fadeIn('right', 0.6)}
