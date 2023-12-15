@@ -37,14 +37,14 @@ export const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
-          <SiMysql/>,
+          <FaHtml5 key={1}/>,
+          <FaCss3 key={2}/>,
+          <FaJs key={3}/>,
+          <FaReact key={4}/>,
+          <SiNextdotjs key={5}/>,
+          <SiFramer key={6}/>,
+          <FaWordpress key={7}/>,
+          <SiMysql key={8}/>,
         ],
       },
       {
